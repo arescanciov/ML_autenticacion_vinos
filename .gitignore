@@ -1,0 +1,21 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Cachés de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema operativo / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Datos pesados (mantener solo la muestra en src/data_sample)
+src/data_sample/*.zip
+*.parquet
